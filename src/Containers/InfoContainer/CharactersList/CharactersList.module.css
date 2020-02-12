@@ -1,0 +1,20 @@
+.CharactersList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 50vh;
+    overflow: scroll;
+    margin: 1em;
+    list-style: none;
+}
+
+
+.LinkForStyles {
+    cursor: pointer;
+    color: lightskyblue;
+    text-decoration: none;
+    text-decoration: underline;
+    font-weight: bold;
+}

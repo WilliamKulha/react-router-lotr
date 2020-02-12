@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.HeaderNav {
+    background-color: #eee;
+    height: 50px;
+}
+.HeaderNav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    list-style: none;
+}
+
+.HeaderNav ul li a {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.HeaderNav ul li a:hover,
+.HeaderNav ul li a:active {
+    text-decoration: underline;
+    color: blue;
+}

@@ -13,6 +13,7 @@
 
 # misc
 .DS_Store
+.envREACT_APP_YOUR_API_KEY_NAME=your_api_key
 .env.local
 .env.development.local
 .env.test.local
